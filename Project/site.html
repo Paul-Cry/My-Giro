@@ -5,8 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My-Giro</title> 
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="fonts/GardensC.otf" href="GardensC">
-	<script src="index.js"></script>
+	<link rel="stylesheet" type="GardensC" href="fonts/GardensC.otf">
 </head>
 <body>
 
@@ -19,6 +18,7 @@
 						<p class="h__link__text">ЗАКАЗАТЬ ЗВОНОК</p>
 					</a>
 				</div>
+				<button class='backgrund_light'>Поменять фон</button>
 			</div>
 			<div class="line__top"></div>
 			<div class="header__inner">
@@ -151,27 +151,27 @@
 		<div class="center">
 			<div class="catalog__block">
 			<div class="catalog__text">
-				<div class="catalog__title">
+				<div class="catalog__Title">
 					Каталог
 				</div>
 				<div class="catalog__link__items">
 					<div class="block__link">
-						<div class="catalog__link"> ВСЕ</div>
+						<div class="catalogLink"> ВСЕ</div>
 					</div>
 					<div class="block__link">
-						<div class = "catalog__link" href="#">ГИРОСКУРТЕРЫ</div>
+						<div class = "catalogLink" href="#" data-filter='giro'>ГИРОСКУРТЕРЫ</div>
 					</div>
 					<div class="block__link">
-						<div class = "catalog__link" href="#">ЭЛЕКТРОСАМОКАТЫ</div>
+						<div class = "catalogLink" href="#" data-filter='electro'>ЭЛЕКТРОСАМОКАТЫ</div>
 					</div>
 					<div class="block__link">
-						<div class = "catalog__link" href="#">СИГВЕИ</div>
+						<div class = "catalogLink" href="#" data-filter='sig'>СИГВЕИ</div>
 					</div>
 				</div>
 			</div>
 			
 			
-			<div class="catalog__items">
+			<div class="catalog__items" >
 				<div class="segway">
 					<div class="catalog__name">
 						Сигвеи
@@ -185,7 +185,7 @@
 						31 480 р.
 					</div>
 				</div>
-				<div class="gyroscooter">
+				<div class="gyroscooter" >
 					<div class="catalog__name">
 						Гироскутеры
 					</div>
@@ -199,7 +199,7 @@
 					</div>
 				</div>
 				<div class="electricscooter">
-					<div class="catalog__name_3">
+					<div class="catalog__name_3" >
 						Электросамокаты
 					</div>
 					<img src="img/electricscooter.jpg" class="image">
@@ -371,7 +371,7 @@
 				</div>
 			</div>
 		</div>
-		
+		<script src='index.js'></script>
 	</footer>
 </body>
 </html>
