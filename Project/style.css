@@ -1,7 +1,6 @@
 body{
 	margin: 0;
-	font-family: "GardensC", Georgia, serif;
-
+	font-family: "GardensC", "Georgia", "serif";
 	font-size: 15px;
 	line-height: 1.6;
 	color: #333; 
@@ -73,11 +72,20 @@ body{
 	color: #fff;
 	display: flex;
 	justify-content: center;
-
-	
-
 }
 
+.backgrund_light{
+	height: 40px;
+	width: 120px;
+	background: black;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	border: none;
+}
 
 .text__button__header{
 	color: #fff;
@@ -450,14 +458,16 @@ input[type="text"]{
 	font-size: 16px;
 }
 
-.catalog__title{
+.catalog__Title{
 	font-size: 30px;
 }
 
 
 .catalog__link__items{
 	display: flex;
+	user-select: none;
 }
+
 
 .block__link:hover{
 	width: 100%;
@@ -469,15 +479,16 @@ input[type="text"]{
 	align-items: center;
 }
 
-input[type=radio] {
-   display:  ;
-   height: 32px;
-}
 
-.catalog__link{
+.catalogLink{
 	text-decoration: none;
 	color: black;
 	margin: 	0 15px;
+	cursor: pointer;
+	display: block;
+}
+.cataloghide{
+	display:none;
 }
 
 .catalog__items{
@@ -485,9 +496,10 @@ input[type=radio] {
 	height:430px;
 	margin-top: 95px;
 	display: flex;
-	justify-content: center;
+	
 	align-items: center;
 }
+
 
 .segway{
  	flex-direction: column;
@@ -765,3 +777,4 @@ img.image{
 	text-decoration: none;
 	color: #7f8992 ;
 }
+
