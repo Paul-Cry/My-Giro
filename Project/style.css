@@ -168,6 +168,15 @@ h1, h2, h3, h4, h5, h6{
 	opacity: 1; 
 }
 
+.str{
+	transform: scale(0.3) rotate(270deg);
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	margin-left: 1270px;
+	transition-timing-function: ease-in;
+}
+
 
 .intro{
 	width: 100%;
@@ -359,9 +368,7 @@ input:focus{
 	color: #fff;
 }
 
-input[type="text"]{
-	font-size: 14px;
-}
+
 
 .email__input{
 	width:100%;
@@ -489,6 +496,7 @@ input[type="text"]{
 }
 .cataloghide{
 	display:none;
+
 }
 
 .catalog__items{
@@ -664,9 +672,6 @@ img.image{
 
 .info__items{
 	height: 800px;
-	position: relative;
-	border: 1px solid #fff;
-
 }
 
 .info__block{
@@ -676,6 +681,8 @@ img.image{
 	justify-content: space-between;
 	height: 264px;
 	width: 1130px;
+	border: 1px solid red;
+	position: relative;
 }
 
 .info__window{
@@ -684,6 +691,7 @@ img.image{
 	height: 264px ;
 	width:264px;
 	text-decoration: none;
+
 }
 
 .choice{
@@ -711,6 +719,7 @@ img.image{
 	background: url(img/child_gyroscuter.jpg);
 	height: 264px ;
 	width:264px;
+
 }
 
 .window__text{
