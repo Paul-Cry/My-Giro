@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "GardensC";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("GardensC"),
+       url("/media/fonts/GardensC.woff2") format("woff2")    
+}
+
+body{
+	font-family: "GardensC";
+	font-size: 50px;
+}
